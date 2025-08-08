@@ -1,4 +1,4 @@
-# cpp-benchmark-deduplicator
+# ForgeHLS-benchmark
 
 This project implements a multi-stage pipeline to select 80 representative and structurally diverse C++ files out of a large codebase (e.g., 900+ files). It combines lexical deduplication (MinHash + LSH), structural feature extraction (AST/CFG), and clustering + diversity maximization (e.g., farthest point sampling).
 
